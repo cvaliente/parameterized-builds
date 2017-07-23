@@ -43,6 +43,11 @@
                 {
                     'trigger': 'prdeclined;',
                     'extraFields': ['#pathRegex-']
+                },
+            '.pr-deleted':
+                {
+                    'trigger': 'prdeleted;',
+                    'extraFields': ['#pathRegex-']
                 }
         };
 
